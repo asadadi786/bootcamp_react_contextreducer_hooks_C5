@@ -47,5 +47,5 @@ jobs:
     
     #deploying an surge 
     - name: Surge 
-      run: surge ./build http://bootcamp2020_reactcontextreducerhooks.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
+      run: surge ./build http://bootcamp2020-contextreducerhooks.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
  
