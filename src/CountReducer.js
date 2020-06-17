@@ -1,15 +1,13 @@
-
 const countReducer = (state, action) => {
     switch (action)
     { 
         case 'INCREMENT':
             return state + 1
         default:
-             throw new Error
+             return -1
         
 
-    }
-    
+    }    
 }
 
 export default countReducer;
