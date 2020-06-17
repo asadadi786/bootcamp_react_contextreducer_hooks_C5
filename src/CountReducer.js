@@ -1,5 +1,3 @@
-
-
 const countReducer = (state, action) => {
     switch (action)
     { 
